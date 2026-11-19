@@ -1,0 +1,16 @@
+{
+  "api": 1,
+  "name": "indexnow",
+  "title": "IndexNow",
+  "description": "Avvisa Bing, Yandex e gli altri motori di IndexNow delle pagine cambiate, appena le salvi o le pubblichi.",
+  "version": "1.0.0",
+  "requires": {"kris": "2.0.0", "php": "8.3", "extensions": []},
+  "types": ["plg_indexnow_state"],
+  "settings": [
+    {"name": "on_save", "type": "boolean", "localized": false, "description": "Avvisa anche a ogni salvataggio sul sito pubblico (non solo alla pubblicazione delle modifiche in attesa)"}
+  ],
+  "hooks": ["published", "content_saved"],
+  "endpoints": [{"name": "chiave", "methods": ["GET"], "rate": "60/1m"}],
+  "cookies": [],
+  "domains": ["api.indexnow.org"]
+}
