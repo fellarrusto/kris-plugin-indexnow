@@ -1,0 +1,17 @@
+{
+    "format": 1,
+    "releases": [
+        {
+            "version": "1.0.0",
+            "zip": "https://github.com/fellarrusto/kris-plugin-indexnow/releases/download/v1.0.0/indexnow-1.0.0.zip",
+            "sha256": "fb0f85f008e31e7b00f66ab6fe3989e6ebe69b1a30e1165cd03c35e85b140eff",
+            "size": 2859,
+            "requires": {
+                "kris": "2.0.0",
+                "php": "8.3"
+            },
+            "changelog_it": "Prima versione: avvisa i motori di IndexNow delle pagine pubblicate e, se vuoi, di quelle salvate.",
+            "date": "2026-11-19"
+        }
+    ]
+}
